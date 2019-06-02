@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html,
+body {
+	font-family: 'Nanum Square', Dotum;
+}
+
+input[type=password] {
+	font-family: sans-serif;
+}
+
+ul.counter > li {
+	display: inline-block;
+	list-style-type: none;
+	text-transform: uppercase;
+}
+
+ul.counter > li+li {
+	padding-left: 1.25em;
+}
+
+ul.counter > li span {
+	display: block;
+	font-size: 2rem;
+}
